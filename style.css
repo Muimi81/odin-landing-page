@@ -1,1 +1,113 @@
 /* Stylesheet for the Odin Landing Page Project */
+
+footer {
+    background: #1f2937;
+}
+
+footer p {
+    color: #f9faf8;
+}
+
+p {
+    font-family: roboto, sans-serif;
+}
+
+#hero {
+    background: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+#hero h1 {
+    font-family: roboto, sans-serif;
+    color: #f9fAf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#hero p, #hero nav li {
+    font-family:roboto, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#call-to-action {
+    background: #3882f6;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#hero button {
+    background:#3882f6;
+    color: #F9FAF8;
+}
+
+blockquote p {
+    font-size: 38px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+#quote {
+    background: #e5e7eb;
+}
+
+/* main navigation styling*/
+
+body {
+    padding: 0;
+}
+
+nav {
+    padding: 16px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav li.logo {
+    margin-right: auto;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+/* main navigation styling (ends)*/
+
+
+/* all links styling*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e5e7eb;
+}
+
+a:active {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/*all links styling (ends)*/
