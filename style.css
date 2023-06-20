@@ -18,6 +18,12 @@ p {
     padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 25px;
+    overflow: hidden;
+    display: flexbox;
+}
+
+#hero img {
+    float:right;
 }
 
 #hero h1 {
