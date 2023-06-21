@@ -11,13 +11,13 @@
 
 <body>
 
-    <div id="hero"><!--above the fold div-->
+    <div id="above-the-fold"><!--above the fold div-->
 
         <nav><!--main navigation-->
 
             <ul>
 
-                <li class="logo">
+                <li class="site-logo">
                     <a href="/">Header Logo</a>
                 </li>
 
@@ -30,6 +30,10 @@
                 </li>
 
                 <li>
+                    <a href="">Courses</a>
+                </li>
+
+                <li>
                     <a href="">Contact</a>
                 </li>
 
@@ -37,20 +41,33 @@
 
         </nav><!--main navigation-->
 
-        <h1>
-            This Website is Awesome
-        </h1>
+        <div id="hero-content"><!--hero-content div-->
 
-        <p>
-            This Website has some subtext that goes here under the main title. It's a smaller font and
-            the color is lower contrast
-        </p>
+            <div id="hero-body"><!--hero-body div-->
 
-        <button>
-            Sign Up
-        </button>
+                <h1>
+                    This website is awesome
+                </h1>
 
-        <img src="img/hero-featured.jpg" width="900px" height="471px" alt="This is a placeholder for an image">
+                <p>
+                    This Website has some subtext that goes here under the main title. It's a smaller 
+                    font and the color is lower contrast
+                </p>
+
+                <button class="sign-up">
+                    Sign Up
+                </button>
+
+            </div><!--hero-body div ends-->
+
+            <div id="hero-media"><!--hero-media div-->
+
+                <img src="img/hero-featured.jpg" width="800px" height="418px"
+                alt="This is a placeholder for an image"/>
+
+            </div><!--hero-media div ends-->
+
+        </div><!--hero-content div-->
 
     </div><!--end of above the fold div-->
 

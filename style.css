@@ -10,9 +10,11 @@ footer p {
 
 p {
     font-family: roboto, sans-serif;
+    font-weight: 200;
+    line-height: 26px;
 }
 
-#hero {
+#above-the-fold {
     background: #1f2937;
     padding-left: 100px;
     padding-right: 100px;
@@ -22,18 +24,25 @@ p {
     display: flexbox;
 }
 
-#hero img {
-    float:right;
+#hero-content {
+    display: flex;
+    flex: 1 1 0;
+    padding: 50px 0;
 }
 
-#hero h1 {
+#hero-media {
+    align-items: flex-start;
+    float: right;
+}
+
+#above-the-fold h1 {
     font-family: roboto, sans-serif;
     color: #f9fAf8;
     font-size: 48px;
     font-weight: extra-bold;
 }
 
-#hero p, #hero nav li {
+#above-the-fold p, #above-the-fold nav li {
     font-family:roboto, sans-serif;
     font-size: 18px;
     color: #e5e7eb;
@@ -47,9 +56,13 @@ p {
     margin-right: 100px;
 }
 
-#hero button {
+button {
     background:#3882f6;
     color: #F9FAF8;
+    padding: 10px 35px;
+    font-family: roboto, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 blockquote p {
@@ -68,13 +81,18 @@ body {
     padding: 0;
 }
 
+#hero-body {
+    padding-right: 15px;
+    flex: 1;
+}
+
 nav {
-    padding: 16px;
+    padding: 16px 0 16px 0;
 }
 
 nav ul {
     display: flex;
-    gap: 16px;
+    gap: 25px;
     list-style-type: none;
     align-items: baseline;
     margin: 0;
@@ -82,11 +100,11 @@ nav ul {
     text-decoration: none;
 }
 
-nav li.logo {
+nav li.site-logo {
     margin-right: auto;
 }
 
-.logo a {
+.site-logo a {
     font-size: 24px;
     font-weight: 500;
     color: #f9faf8;
