@@ -83,8 +83,9 @@ p {
     font-size: 16px;
     border: 2px solid #f9f9f9;
     border-radius: 5%;
-    display: block;
+    display: inline-flexbox;
     flex-basis: auto;
+    align-items: end;
 }
 
 blockquote p {
