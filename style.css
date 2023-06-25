@@ -6,6 +6,10 @@ footer {
 
 footer p {
     color: #f9faf8;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p {
