@@ -83,9 +83,10 @@ p {
     font-size: 16px;
     border: 2px solid #f9f9f9;
     border-radius: 5%;
-    display: inline-flexbox;
-    flex-basis: auto;
-    align-items: end;
+    display: block;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 2.5%;
 }
 
 
@@ -103,13 +104,20 @@ blockquote {
     padding-right: 125px;
 }
 
-
 blockquote p {
     font-size: 38px;
     font-style: italic;
     color: #1f2937;
     font-weight: lighter;
     line-height: 120%;
+}
+
+figcaption {
+    font-family: inherit;
+    font-weight: 900;
+    font-style: normal;
+    display: block;
+    margin-left: 75%;
 }
 
 /*styling the quote section (ends)*/
